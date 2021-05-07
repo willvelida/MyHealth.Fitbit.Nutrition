@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHealth.Fitbit.Nutrition", "MyHealth.Fitbit.Nutrition\MyHealth.Fitbit.Nutrition.csproj", "{064E6AC8-611B-4CE3-988E-46C852BDFC2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHealth.Fitbit.Nutrition.UnitTests", "MyHealth.Fitbit.Nutrition.UnitTests\MyHealth.Fitbit.Nutrition.UnitTests.csproj", "{EAAAD5A1-9BDE-46AA-AE59-0921FA7A9315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064E6AC8-611B-4CE3-988E-46C852BDFC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064E6AC8-611B-4CE3-988E-46C852BDFC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064E6AC8-611B-4CE3-988E-46C852BDFC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064E6AC8-611B-4CE3-988E-46C852BDFC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAAD5A1-9BDE-46AA-AE59-0921FA7A9315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAAD5A1-9BDE-46AA-AE59-0921FA7A9315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAAD5A1-9BDE-46AA-AE59-0921FA7A9315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAAD5A1-9BDE-46AA-AE59-0921FA7A9315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F3EE599-AE1D-4B9D-9612-AD4DB5D4D609}
+	EndGlobalSection
+EndGlobal
