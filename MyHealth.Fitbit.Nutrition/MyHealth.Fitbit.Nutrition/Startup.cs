@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MyHealth.Common;
 using MyHealth.Fitbit.Nutrition;
 using MyHealth.Fitbit.Nutrition.Services;
+using MyHealth.Fitbit.Nutrition.Validators;
 using System;
 using System.IO;
 
@@ -36,6 +37,7 @@ namespace MyHealth.Fitbit.Nutrition
                 return new KeyVaultHelper(configuration["KeyVaultName"]);
             });
             builder.Services.AddScoped<IFitbitApiService, FitbitApiService>();
+            builder.Services.AddScoped<IDateValidator, DateValidator>();
         }
     }
 }
