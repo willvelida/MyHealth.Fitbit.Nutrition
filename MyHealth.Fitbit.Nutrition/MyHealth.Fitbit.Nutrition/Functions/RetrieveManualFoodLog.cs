@@ -38,7 +38,7 @@ namespace MyHealth.Fitbit.Nutrition.Functions
 
         [FunctionName(nameof(RetrieveManualFoodLog))]
         public async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "FoodLog/{date}")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "FoodLog/{date}")] HttpRequest req,
             ILogger log,
             string date)
         {
