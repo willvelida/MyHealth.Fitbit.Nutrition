@@ -13,26 +13,26 @@ namespace MyHealth.Fitbit.Nutrition.UnitTests.ValidatorTests
         }
 
         [Fact]
-        public void ReturnFalseIfActivityDateIsNotInValidFormat()
+        public void ReturnFalseIfNutritionDateIsNotInValidFormat()
         {
             // Arrange
-            string testActivityDate = "100/12/2021";
+            string testNutritionDate = "100/12/2021";
 
             // Act
-            var response = _sut.IsNutritionDateValid(testActivityDate);
+            var response = _sut.IsNutritionDateValid(testNutritionDate);
 
             // Assert
             Assert.False(response);
         }
 
         [Fact]
-        public void ReturnTrueIfActivityDateIsInValidFormat()
+        public void ReturnTrueIfNutritionDateIsInValidFormat()
         {
             // Arrange
-            string testActivityDate = "2020-12-31";
+            string testNutritionDate = "2020-12-31";
 
             // Act
-            var response = _sut.IsNutritionDateValid(testActivityDate);
+            var response = _sut.IsNutritionDateValid(testNutritionDate);
 
             // Assert
             Assert.True(response);
